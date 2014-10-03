@@ -35,8 +35,18 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.method = :rsync
+  deploy.host   = 'tarkalabs'
+  deploy.path   = '/home/deploy/sites/tarkalabs'
+  # Optional Settings
+   deploy.user  = 'deploy' # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 end
+#activate :deploy do |deploy|
+  #deploy.method = :git
+#end
 # Reload the browser automatically whenever files change
 # configure :development do
 #   activate :livereload
