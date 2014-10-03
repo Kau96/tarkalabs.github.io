@@ -348,7 +348,7 @@ function onePageScroll() {
       scrollSpeed: 650,
       scrollOffset: 30,
       scrollThreshold: 0.5,
-      filter: ':not(.login, .signup)',
+      filter: ':not(.login, .signup, .external)',
       easing: 'swing',
       begin: function() {
           //I get fired when the animation is starting
