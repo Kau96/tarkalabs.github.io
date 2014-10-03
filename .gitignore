@@ -20,3 +20,4 @@
 #Files for RBenv environment
 .ruby-version
 .gems/
+*.swp

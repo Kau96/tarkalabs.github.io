@@ -532,7 +532,7 @@ blockquote {
   top: 20px;
   overflow: hidden;
   border: none;
-  background: url(../img/cross.png) no-repeat center center;
+  background: url(../images/cross.png) no-repeat center center;
   text-indent: 200%;
   color: transparent;
   outline: none;
@@ -676,7 +676,7 @@ section .login-overlay {
   cursor: pointer;
 }
 .grabbing {
-  cursor: url(../img/grabbing.png) 8 8, move;
+  cursor: url(../images/grabbing.png) 8 8, move;
 }
 /*
 *   Owl Carousel Owl Demo Theme 
@@ -813,7 +813,7 @@ section .login-overlay {
 }
 .owl-item.loading {
   min-height: 150px;
-  background: url(../img/AjaxLoader.gif) no-repeat center center;
+  background: url(../images/AjaxLoader.gif) no-repeat center center;
 }
 .owl-origin {
   -webkit-perspective: 1200px;
@@ -1172,7 +1172,7 @@ section .login-overlay {
   border-bottom: 0;
 }
 #intro-video {
-  background: url('../img/bg-videofallback.jpg');
+  background: url('../images/bg-videofallback.jpg');
   background-size: cover;
 }
 #intro .item,
@@ -1304,7 +1304,7 @@ section .login-overlay {
 }
 .ie9 .overlay-bg,
 .ie8 .overlay-bg {
-  background: url('../img/ie-overlay.png');
+  background: url('../images/ie-overlay.png');
 }
 .mb_YTVPlayer :focus {
   outline: 0;
@@ -1513,14 +1513,14 @@ section.light {
   background: #ededed;
 }
 section.light.with-bg {
-  background: url('../img/bg-content1.jpg') center center no-repeat;
+  background: url('../images/bg-content1.jpg') center center no-repeat;
   background-size: cover;
 }
 section.dark {
   background: #2b2d35;
 }
 section.dark.with-bg {
-  background: url('../img/bg-content1.jpg') center center no-repeat;
+  background: url('../images/bg-content1.jpg') center center no-repeat;
   background-size: cover;
 }
 section.dark h1,
