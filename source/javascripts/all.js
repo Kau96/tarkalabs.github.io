@@ -15,8 +15,3 @@
 //= require "_jquery.magnific-popup.min"
 //= require "_jqBootstrapValidation"
 //= require "_custom"
-
-//The files below aren't used at the momment
-//= require "_jquery.flexslider-min"
-//= require "_jquery.mb.YTPlayer"
-//= require "_less-1.6.1.min"
