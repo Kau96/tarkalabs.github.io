@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.3.3"
 gem 'middleman-deploy', '~> 0.3.0'
+gem 'middleman-minify-html', '~> 3.4.0'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
