@@ -2,8 +2,6 @@
 *= require "_bootstrap.min"
 *= require "_theme-blue"
 *= require "_magnific-popup"
+*= require "_custom-styles"
 */
 
-.icons i {
-  font-size: 3em;
-}
